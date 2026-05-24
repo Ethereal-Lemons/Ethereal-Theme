@@ -16,6 +16,11 @@
   <img src="assets/ethereal-preview-aqua.png" alt="Ethereal theme preview">
 </p>
 
+<p align="center">
+  <img src="assets/ethereal-angel-water.jpg" width="420" alt="Ethereal angel over luminous water">
+  <img src="assets/ethereal-angel-mirror.jpg" width="420" alt="Ethereal angel beside a gothic mirror">
+</p>
+
 ## Themes
 
 | Theme | Mood | Palette |

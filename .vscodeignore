@@ -10,5 +10,6 @@ tui/**
 .gitignore
 assets/*.svg
 assets/ethereal-preview.png
+assets/Ethereal-Theme.png
 vsc-extension-quickstart.md
 walkthrough.md
