@@ -1,10 +1,10 @@
 # Ethereal-Theme (Y2K Aero)
-background = #0a0e18
+background = #0b1720
 foreground = #c8d6e5
 cursor-color = #00f0ff
-selection-background = #083641
-palette = 0=#0a0e18
-palette = 1=#ff7878
+selection-background = #093d47
+palette = 0=#0b1720
+palette = 1=#ff7096
 palette = 2=#ffffff
 palette = 3=#a5f3fc
 palette = 4=#00f0ff
@@ -12,7 +12,7 @@ palette = 5=#00f0ff
 palette = 6=#00f0ff
 palette = 7=#c8d6e5
 palette = 8=#4f6277
-palette = 9=#ff7878
+palette = 9=#ff7096
 palette = 10=#ffffff
 palette = 11=#ffd166
 palette = 12=#00f0ff
