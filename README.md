@@ -16,9 +16,12 @@
   <img src="assets/ethereal-preview-aqua.png" alt="Ethereal theme preview">
 </p>
 
+## Atmosphere
+
+Ethereal is shaped around a cold celestial mood: bright syntax, dark glass, soft bloom, and angelic monochrome texture.
+
 <p align="center">
-  <img src="assets/ethereal-angel-water.jpg" width="420" alt="Ethereal angel over luminous water">
-  <img src="assets/ethereal-angel-mirror.jpg" width="420" alt="Ethereal angel beside a gothic mirror">
+  <img src="assets/ethereal-angel-water.jpg" width="520" alt="Ethereal angel over luminous water">
 </p>
 
 ## Themes
@@ -62,6 +65,10 @@ Ethereal-Theme (Angelical Light)
 - Works well with soft icon themes and minimal UI chrome.
 - The dark variants pair best with dim terminal backgrounds.
 - Angelical Light is designed for bright environments while keeping syntax colors readable.
+
+<p align="center">
+  <img src="assets/ethereal-angel-mirror.jpg" width="520" alt="Ethereal angel beside a gothic mirror">
+</p>
 
 ## Notes
 
