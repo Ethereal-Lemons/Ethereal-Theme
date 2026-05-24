@@ -92,6 +92,7 @@ const defaultTheme = themes.find((theme) => theme.name === "Ethereal-Theme (Defa
 const kerubin = themes.find((theme) => theme.name === "Ethereal-Theme (Kerubin)") ?? defaultTheme;
 const angelical = themes.find((theme) => theme.name === "Ethereal-Theme (Angelical Light)") ?? defaultTheme;
 const y2k = themes.find((theme) => theme.name === "Ethereal-Theme (Y2K Aero)") ?? defaultTheme;
+const iconData = (await readFile(path.join(assetsDir, "ethereal-icon.png"))).toString("base64");
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
   <title id="title">Ethereal theme preview</title>
@@ -113,13 +114,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" v
   <circle cx="238" cy="536" r="220" fill="${solid(themes.find((theme) => theme.name.includes("Frutiger"))?.colors["editorCursor.foreground"] ?? "#00ffaa")}" opacity=".08"/>
 
   <g filter="url(#shadow)">
-    <rect x="82" y="58" width="112" height="112" rx="32" fill="${solid(angelical.colors["editor.background"])}"/>
-    <path d="M138 82l32 29-12 43-20 13-20-13-12-43z" fill="#ffffff" opacity=".9"/>
-    <path d="M114 118c-23-17-45-19-64-8 19 6 31 15 37 27-12-4-24-4-36 0 22 9 38 22 48 39 7-9 14-17 25-24z" fill="#ffffff" opacity=".72"/>
-    <path d="M162 118c23-17 45-19 64-8-19 6-31 15-37 27 12-4 24-4 36 0-22 9-38 22-48 39-7-9-14-17-25-24z" fill="${solid(y2k.colors["editorCursor.foreground"], y2k.colors["editor.background"])}" opacity=".68"/>
-    <ellipse cx="138" cy="77" rx="31" ry="9" fill="none" stroke="${token(kerubin, ["Class, Support"], "#ffe5ad")}" stroke-width="7"/>
-    <path d="M116 118h44M112 139h52M124 160h28" fill="none" stroke="${solid(defaultTheme.colors["editor.background"])}" stroke-width="7" stroke-linecap="round" opacity=".72"/>
-    <path d="M116 118h44M112 139h52M124 160h28" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".92"/>
+    <image href="data:image/png;base64,${iconData}" x="82" y="58" width="112" height="112"/>
   </g>
 
   <text x="230" y="100" fill="#f8fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Ethereal</text>
