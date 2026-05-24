@@ -1,0 +1,80 @@
+{
+  "name": "ethereal",
+  "displayName": "Ethereal",
+  "description": "A soft collection of celestial, retro, aero, and luminous VS Code color themes.",
+  "version": "0.0.1",
+  "publisher": "lemonmantis",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ethereal-Lemons/Ethereal-Theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ethereal-Lemons/Ethereal-Theme/issues"
+  },
+  "homepage": "https://github.com/Ethereal-Lemons/Ethereal-Theme#readme",
+  "icon": "assets/ethereal-icon.png",
+  "galleryBanner": {
+    "color": "#161420",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "ethereal",
+    "angelical",
+    "kerubin",
+    "frutiger aero",
+    "y2k",
+    "windows 7",
+    "aesthetic"
+  ],
+  "scripts": {
+    "export:tui": "node scripts/export-tui-themes.mjs",
+    "render:preview": "node scripts/render-marketplace-preview.mjs",
+    "vscode:prepublish": "npm run render:preview",
+    "package": "npx --yes @vscode/vsce package",
+    "publish": "npx --yes @vscode/vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ethereal-Theme (Default)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Theme-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Kerubin)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Kerubin-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Frutiger)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Frutiger-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Y2K Aero)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Y2K-Aero-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Windows 7)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Windows7-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Angelical Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Ethereal-Angelical-Light-color-theme.json"
+      }
+    ]
+  }
+}

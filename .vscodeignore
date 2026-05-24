@@ -1,0 +1,14 @@
+.vscode/**
+.vscode-test/**
+.git/**
+node_modules/**
+*.vsix
+.opencode/**
+scripts/**
+tui/**
+.gitattributes
+.gitignore
+assets/*.svg
+assets/ethereal-preview.png
+vsc-extension-quickstart.md
+walkthrough.md

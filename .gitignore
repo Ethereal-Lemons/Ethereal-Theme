@@ -1,0 +1,20 @@
+node_modules/
+*.vsix
+
+# Local editor and tool state
+.vscode/
+.vscode-test/
+.opencode/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# OS noise
+.DS_Store
+Thumbs.db

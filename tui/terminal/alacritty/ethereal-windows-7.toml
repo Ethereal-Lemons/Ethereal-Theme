@@ -1,0 +1,32 @@
+# Ethereal-Theme (Windows 7)
+[colors.primary]
+background = "#0a111a"
+foreground = "#d1dfeb"
+
+[colors.cursor]
+text = "#0a111a"
+cursor = "#59b2ff"
+
+[colors.selection]
+text = "#d1dfeb"
+background = "#182d42"
+
+[colors.normal]
+black = "#0a111a"
+red = "#ff7878"
+green = "#6ce89f"
+yellow = "#ffffff"
+blue = "#ffd166"
+magenta = "#59b2ff"
+cyan = "#ffd166"
+white = "#d1dfeb"
+
+[colors.bright]
+black = "#4f657a"
+red = "#ff7878"
+green = "#6ce89f"
+yellow = "#ffa8cc"
+blue = "#ffd166"
+magenta = "#59b2ff"
+cyan = "#ffd166"
+white = "#ffffff"

@@ -1,0 +1,32 @@
+# Ethereal-Theme (Angelical Light)
+[colors.primary]
+background = "#fffaf3"
+foreground = "#3f344a"
+
+[colors.cursor]
+text = "#fffaf3"
+cursor = "#9f4a70"
+
+[colors.selection]
+text = "#3f344a"
+background = "#f6e2e3"
+
+[colors.normal]
+black = "#f4eadf"
+red = "#c93662"
+green = "#267c52"
+yellow = "#8a6a18"
+blue = "#2f77b4"
+magenta = "#9f4a70"
+cyan = "#23748f"
+white = "#3f344a"
+
+[colors.bright]
+black = "#746684"
+red = "#c93662"
+green = "#267c52"
+yellow = "#9b5b13"
+blue = "#b13d6e"
+magenta = "#7d5fb2"
+cyan = "#23748f"
+white = "#ffffff"

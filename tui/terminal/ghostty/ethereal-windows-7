@@ -1,0 +1,21 @@
+# Ethereal-Theme (Windows 7)
+background = #0a111a
+foreground = #d1dfeb
+cursor-color = #59b2ff
+selection-background = #182d42
+palette = 0=#0a111a
+palette = 1=#ff7878
+palette = 2=#6ce89f
+palette = 3=#ffffff
+palette = 4=#ffd166
+palette = 5=#59b2ff
+palette = 6=#ffd166
+palette = 7=#d1dfeb
+palette = 8=#4f657a
+palette = 9=#ff7878
+palette = 10=#6ce89f
+palette = 11=#ffa8cc
+palette = 12=#ffd166
+palette = 13=#59b2ff
+palette = 14=#ffd166
+palette = 15=#ffffff

@@ -1,0 +1,32 @@
+# Ethereal-Theme (Default)
+[colors.primary]
+background = "#07080c"
+foreground = "#eae6f5"
+
+[colors.cursor]
+text = "#07080c"
+cursor = "#9cd2ff"
+
+[colors.selection]
+text = "#eae6f5"
+background = "#212c37"
+
+[colors.normal]
+black = "#07080c"
+red = "#ff7096"
+green = "#a7f3d0"
+yellow = "#82aaff"
+blue = "#89ddff"
+magenta = "#9cd2ff"
+cyan = "#89ddff"
+white = "#eae6f5"
+
+[colors.bright]
+black = "#576275"
+red = "#ff7096"
+green = "#a7f3d0"
+yellow = "#ffa8cc"
+blue = "#7ec2ff"
+magenta = "#dec9ff"
+cyan = "#89ddff"
+white = "#ffffff"

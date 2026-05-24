@@ -1,0 +1,32 @@
+# Ethereal-Theme (Frutiger)
+[colors.primary]
+background = "#08131a"
+foreground = "#d0e6f0"
+
+[colors.cursor]
+text = "#08131a"
+cursor = "#00ffaa"
+
+[colors.selection]
+text = "#d0e6f0"
+background = "#07322d"
+
+[colors.normal]
+black = "#08131a"
+red = "#ff7096"
+green = "#00ffaa"
+yellow = "#f0fdf4"
+blue = "#00f0ff"
+magenta = "#00ffaa"
+cyan = "#00f0ff"
+white = "#d0e6f0"
+
+[colors.bright]
+black = "#49697a"
+red = "#ff7096"
+green = "#00ffaa"
+yellow = "#fff080"
+blue = "#00d2ff"
+magenta = "#00d2ff"
+cyan = "#00f0ff"
+white = "#ffffff"

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Ethereal theme icon</title>
+  <desc id="desc">A luminous celestial code gem with soft wings and a halo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="30" y1="18" x2="226" y2="238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffaf3"/>
+      <stop offset=".34" stop-color="#ffccd8"/>
+      <stop offset=".68" stop-color="#9cd2ff"/>
+      <stop offset="1" stop-color="#161420"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="128" cy="118" r="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".92"/>
+      <stop offset=".44" stop-color="#ffccd8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#9cd2ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gem" x1="86" y1="68" x2="176" y2="184" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".32" stop-color="#ffe5ad"/>
+      <stop offset=".64" stop-color="#ffb3d1"/>
+      <stop offset="1" stop-color="#a2d2ff"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="42" y1="86" x2="214" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".98"/>
+      <stop offset=".5" stop-color="#ffccd8" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#c2f0fc" stop-opacity=".96"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#161420" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="54" fill="url(#bg)"/>
+  <circle cx="128" cy="124" r="108" fill="url(#glow)"/>
+  <ellipse cx="128" cy="66" rx="48" ry="15" fill="none" stroke="#fff4c8" stroke-width="9" opacity=".92"/>
+  <ellipse cx="128" cy="66" rx="34" ry="8" fill="none" stroke="#ffffff" stroke-width="4" opacity=".85"/>
+  <g filter="url(#softShadow)">
+    <path d="M118 111C86 82 54 78 28 93c24 7 38 18 45 33-14-6-28-7-43-3 27 11 46 27 58 49 9-12 19-22 30-30z" fill="url(#wing)" opacity=".92"/>
+    <path d="M138 111c32-29 64-33 90-18-24 7-38 18-45 33 14-6 28-7 43-3-27 11-46 27-58 49-9-12-19-22-30-30z" fill="url(#wing)" opacity=".92"/>
+    <path d="M128 70l49 43-18 69-31 20-31-20-18-69z" fill="url(#gem)" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M128 70v132M79 113h98M97 182l31-112 31 112" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".68"/>
+    <path d="M103 116h50M96 139h64M108 162h40" fill="none" stroke="#161420" stroke-width="10" stroke-linecap="round" opacity=".72"/>
+    <path d="M103 116h50M96 139h64M108 162h40" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  </g>
+</svg>

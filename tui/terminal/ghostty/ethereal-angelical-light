@@ -1,0 +1,21 @@
+# Ethereal-Theme (Angelical Light)
+background = #fffaf3
+foreground = #3f344a
+cursor-color = #9f4a70
+selection-background = #f6e2e3
+palette = 0=#f4eadf
+palette = 1=#c93662
+palette = 2=#267c52
+palette = 3=#8a6a18
+palette = 4=#2f77b4
+palette = 5=#9f4a70
+palette = 6=#23748f
+palette = 7=#3f344a
+palette = 8=#746684
+palette = 9=#c93662
+palette = 10=#267c52
+palette = 11=#9b5b13
+palette = 12=#b13d6e
+palette = 13=#7d5fb2
+palette = 14=#23748f
+palette = 15=#ffffff

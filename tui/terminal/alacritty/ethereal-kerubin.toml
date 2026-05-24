@@ -1,0 +1,32 @@
+# Ethereal-Theme (Kerubin)
+[colors.primary]
+background = "#161420"
+foreground = "#eae6f5"
+
+[colors.cursor]
+text = "#161420"
+cursor = "#ffb3d1"
+
+[colors.selection]
+text = "#eae6f5"
+background = "#463a46"
+
+[colors.normal]
+black = "#161420"
+red = "#ff7096"
+green = "#c3ffd8"
+yellow = "#ffe5ad"
+blue = "#a2d2ff"
+magenta = "#ffb3d1"
+cyan = "#c2f0fc"
+white = "#eae6f5"
+
+[colors.bright]
+black = "#6b6380"
+red = "#ff7096"
+green = "#c3ffd8"
+yellow = "#ffd6a5"
+blue = "#ffa8cc"
+magenta = "#dec9ff"
+cyan = "#c2f0fc"
+white = "#ffffff"
