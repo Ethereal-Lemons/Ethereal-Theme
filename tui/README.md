@@ -51,6 +51,9 @@ ethereal-frutiger
 ethereal-y2k-aero
 ethereal-windows-7
 ethereal-angelical-light
+ethereal-gothic-angel
+ethereal-luminous-space
+ethereal-fallen-angel
 ```
 
 ## Claude Code

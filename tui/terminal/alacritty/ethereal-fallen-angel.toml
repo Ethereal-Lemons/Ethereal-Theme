@@ -1,0 +1,32 @@
+# Ethereal-Theme (Fallen Angel)
+[colors.primary]
+background = "#080808"
+foreground = "#eaeaea"
+
+[colors.cursor]
+text = "#080808"
+cursor = "#ffffff"
+
+[colors.selection]
+text = "#eaeaea"
+background = "#232323"
+
+[colors.normal]
+black = "#080808"
+red = "#ff6b6b"
+green = "#ffffff"
+yellow = "#b0b0b0"
+blue = "#b0b0b0"
+magenta = "#ffffff"
+cyan = "#ffffff"
+white = "#eaeaea"
+
+[colors.bright]
+black = "#6c6c6c"
+red = "#ff6b6b"
+green = "#ffffff"
+yellow = "#ffffff"
+blue = "#ffffff"
+magenta = "#ffffff"
+cyan = "#ffffff"
+white = "#ffffff"

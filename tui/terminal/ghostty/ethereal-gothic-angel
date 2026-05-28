@@ -1,0 +1,21 @@
+# Ethereal-Theme (Gothic Angel)
+background = #0f090b
+foreground = #eae3e7
+cursor-color = #ff3b70
+selection-background = #39121d
+palette = 0=#0f090b
+palette = 1=#ff3b70
+palette = 2=#ffffff
+palette = 3=#e8c4d0
+palette = 4=#e8c4d0
+palette = 5=#ff3b70
+palette = 6=#ff3b70
+palette = 7=#eae3e7
+palette = 8=#664e56
+palette = 9=#ff3b70
+palette = 10=#ffffff
+palette = 11=#ff7da0
+palette = 12=#ff5c86
+palette = 13=#ff3b70
+palette = 14=#ff3b70
+palette = 15=#ffffff

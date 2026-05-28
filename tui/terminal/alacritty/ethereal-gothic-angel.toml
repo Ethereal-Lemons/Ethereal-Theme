@@ -1,0 +1,32 @@
+# Ethereal-Theme (Gothic Angel)
+[colors.primary]
+background = "#0f090b"
+foreground = "#eae3e7"
+
+[colors.cursor]
+text = "#0f090b"
+cursor = "#ff3b70"
+
+[colors.selection]
+text = "#eae3e7"
+background = "#39121d"
+
+[colors.normal]
+black = "#0f090b"
+red = "#ff3b70"
+green = "#ffffff"
+yellow = "#e8c4d0"
+blue = "#e8c4d0"
+magenta = "#ff3b70"
+cyan = "#ff3b70"
+white = "#eae3e7"
+
+[colors.bright]
+black = "#664e56"
+red = "#ff3b70"
+green = "#ffffff"
+yellow = "#ff7da0"
+blue = "#ff5c86"
+magenta = "#ff3b70"
+cyan = "#ff3b70"
+white = "#ffffff"

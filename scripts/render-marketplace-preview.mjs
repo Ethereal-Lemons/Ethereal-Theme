@@ -12,7 +12,10 @@ const order = [
 	"Ethereal-Theme (Frutiger)",
 	"Ethereal-Theme (Y2K Aero)",
 	"Ethereal-Theme (Windows 7)",
-	"Ethereal-Theme (Angelical Light)"
+	"Ethereal-Theme (Angelical Light)",
+	"Ethereal-Theme (Gothic Angel)",
+	"Ethereal-Theme (Luminous Space)",
+	"Ethereal-Theme (Fallen Angel)"
 ];
 
 const moods = new Map([
@@ -21,7 +24,10 @@ const moods = new Map([
 	["Ethereal-Theme (Frutiger)", "fresh green + aqua glass"],
 	["Ethereal-Theme (Y2K Aero)", "aqua aero + electric cyan"],
 	["Ethereal-Theme (Windows 7)", "blue glass + warm gold"],
-	["Ethereal-Theme (Angelical Light)", "ivory + rose + soft blue"]
+	["Ethereal-Theme (Angelical Light)", "ivory + rose + soft blue"],
+	["Ethereal-Theme (Gothic Angel)", "black cherry + pale rose"],
+	["Ethereal-Theme (Luminous Space)", "violet void + neon mint"],
+	["Ethereal-Theme (Fallen Angel)", "black ash + white glow"]
 ]);
 
 function esc(value) {
@@ -60,7 +66,7 @@ function card(theme, index) {
 	const col = index % 3;
 	const row = Math.floor(index / 3);
 	const x = 90 + col * 382;
-	const y = 230 + row * 166;
+	const y = 230 + row * 148;
 	const c = theme.colors;
 	const bg = solid(c["editor.background"]);
 	const fg = solid(c["editor.foreground"], bg);
@@ -94,11 +100,11 @@ const angelical = themes.find((theme) => theme.name === "Ethereal-Theme (Angelic
 const y2k = themes.find((theme) => theme.name === "Ethereal-Theme (Y2K Aero)") ?? defaultTheme;
 const iconData = (await readFile(path.join(assetsDir, "ethereal-icon.png"))).toString("base64");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="title desc">
   <title id="title">Ethereal theme preview</title>
   <desc id="desc">A marketplace preview generated from the current Ethereal theme colors.</desc>
   <defs>
-    <linearGradient id="page" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+    <linearGradient id="page" x1="0" y1="0" x2="1280" y2="780" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="${solid(defaultTheme.colors["editor.background"])}"/>
       <stop offset=".38" stop-color="${solid(kerubin.colors["editor.background"])}"/>
       <stop offset=".7" stop-color="${solid(y2k.colors["editor.background"])}"/>
@@ -108,7 +114,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" v
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".34"/>
     </filter>
   </defs>
-  <rect width="1280" height="640" fill="url(#page)"/>
+  <rect width="1280" height="780" fill="url(#page)"/>
   <circle cx="1000" cy="116" r="226" fill="${solid(kerubin.colors["editorCursor.foreground"], kerubin.colors["editor.background"])}" opacity=".14"/>
   <circle cx="1120" cy="430" r="260" fill="${solid(y2k.colors["editorCursor.foreground"], y2k.colors["editor.background"])}" opacity=".14"/>
   <circle cx="238" cy="536" r="220" fill="${solid(themes.find((theme) => theme.name.includes("Frutiger"))?.colors["editorCursor.foreground"] ?? "#00ffaa")}" opacity=".08"/>
@@ -124,7 +130,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" v
     ${themes.map(card).join("\n")}
   </g>
 
-  <text x="90" y="586" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Six themes. One soft visual system. No runtime code.</text>
+  <text x="90" y="724" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Nine themes. One soft visual system. No runtime code.</text>
 </svg>
 `;
 
@@ -133,7 +139,7 @@ await writeFile(path.join(assetsDir, "ethereal-preview.svg"), svg);
 execFileSync("magick", [
 	path.join(assetsDir, "ethereal-preview.svg"),
 	"-resize",
-	"1280x640",
+	"1280x780",
 	"-depth",
 	"8",
 	path.join(assetsDir, "ethereal-preview-aqua.png")

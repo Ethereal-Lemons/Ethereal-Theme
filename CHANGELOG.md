@@ -2,6 +2,14 @@
 
 All notable changes to Ethereal will be documented in this file.
 
+## 0.0.3
+
+- Added Ethereal-Theme (Gothic Angel).
+- Added Ethereal-Theme (Luminous Space).
+- Added Ethereal-Theme (Fallen Angel).
+- Updated the Marketplace README and preview image for the expanded nine-theme collection.
+- Regenerated generated TUI palettes for all current themes.
+
 ## 0.0.2
 
 - Refined Ethereal-Theme (Y2K Aero) with a more solid midnight/aqua base.

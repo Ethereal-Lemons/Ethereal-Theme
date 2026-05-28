@@ -29,6 +29,35 @@
     }
   },
   {
+    "name": "Ethereal-Theme (Fallen Angel)",
+    "slug": "ethereal-fallen-angel",
+    "appearance": "dark",
+    "background": "#080808",
+    "panel": "#040404",
+    "element": "#0c0c0c",
+    "selection": "#232323",
+    "text": "#eaeaea",
+    "muted": "#6c6c6c",
+    "primary": "#ffffff",
+    "secondary": "#ffffff",
+    "border": "#202020",
+    "tokens": {
+      "comment": "#6c6c6c",
+      "keyword": "#ffffff",
+      "function": "#b0b0b0",
+      "variable": "#eaeaea",
+      "string": "#eaeaea",
+      "number": "#ffffff",
+      "type": "#b0b0b0",
+      "operator": "#9a9a9a",
+      "punctuation": "#9a9a9a",
+      "error": "#ff6b6b",
+      "success": "#ffffff",
+      "warning": "#b0b0b0",
+      "accent": "#ffffff"
+    }
+  },
+  {
     "name": "Ethereal-Theme (Frutiger)",
     "slug": "ethereal-frutiger",
     "appearance": "dark",
@@ -58,6 +87,35 @@
     }
   },
   {
+    "name": "Ethereal-Theme (Gothic Angel)",
+    "slug": "ethereal-gothic-angel",
+    "appearance": "dark",
+    "background": "#0f090b",
+    "panel": "#090506",
+    "element": "#160e11",
+    "selection": "#39121d",
+    "text": "#eae3e7",
+    "muted": "#664e56",
+    "primary": "#ff3b70",
+    "secondary": "#ff5c86",
+    "border": "#3a1920",
+    "tokens": {
+      "comment": "#87707a",
+      "keyword": "#ff3b70",
+      "function": "#e8c4d0",
+      "variable": "#eae3e7",
+      "string": "#ffffff",
+      "number": "#ff7da0",
+      "type": "#e8c4d0",
+      "operator": "#dec9d4",
+      "punctuation": "#dec9d4",
+      "error": "#ff3b70",
+      "success": "#ffffff",
+      "warning": "#e8c4d0",
+      "accent": "#ff3b70"
+    }
+  },
+  {
     "name": "Ethereal-Theme (Kerubin)",
     "slug": "ethereal-kerubin",
     "appearance": "dark",
@@ -84,6 +142,35 @@
       "success": "#c3ffd8",
       "warning": "#ffe5ad",
       "accent": "#c2f0fc"
+    }
+  },
+  {
+    "name": "Ethereal-Theme (Luminous Space)",
+    "slug": "ethereal-luminous-space",
+    "appearance": "dark",
+    "background": "#0d0b1a",
+    "panel": "#080712",
+    "element": "#141126",
+    "selection": "#0b363a",
+    "text": "#e0ddf5",
+    "muted": "#6c698f",
+    "primary": "#00ffd2",
+    "secondary": "#3cffdc",
+    "border": "#2f2950",
+    "tokens": {
+      "comment": "#6c698f",
+      "keyword": "#cf9dff",
+      "function": "#00ffd2",
+      "variable": "#e0ddf5",
+      "string": "#ffffff",
+      "number": "#ff9de0",
+      "type": "#bfdbfe",
+      "operator": "#bfdbfe",
+      "punctuation": "#bfdbfe",
+      "error": "#ff9de0",
+      "success": "#ffffff",
+      "warning": "#bfdbfe",
+      "accent": "#00ffd2"
     }
   },
   {

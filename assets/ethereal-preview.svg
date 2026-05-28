@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="title desc">
   <title id="title">Ethereal theme preview</title>
   <desc id="desc">A marketplace preview generated from the current Ethereal theme colors.</desc>
   <defs>
-    <linearGradient id="page" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+    <linearGradient id="page" x1="0" y1="0" x2="1280" y2="780" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#07080c"/>
       <stop offset=".38" stop-color="#161420"/>
       <stop offset=".7" stop-color="#0b1720"/>
@@ -12,7 +12,7 @@
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".34"/>
     </filter>
   </defs>
-  <rect width="1280" height="640" fill="url(#page)"/>
+  <rect width="1280" height="780" fill="url(#page)"/>
   <circle cx="1000" cy="116" r="226" fill="#ffb3d1" opacity=".14"/>
   <circle cx="1120" cy="430" r="260" fill="#00f0ff" opacity=".14"/>
   <circle cx="238" cy="536" r="220" fill="#00ffaa" opacity=".08"/>
@@ -53,7 +53,7 @@
       <circle cx="310" cy="43" r="13" fill="#00d2ff"/>
     </g>
 
-    <g transform="translate(90 396)">
+    <g transform="translate(90 378)">
       <rect width="336" height="128" rx="18" fill="#0b1720" stroke="#3d536b" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#c8d6e5" font-size="24" font-weight="750">Y2K Aero</text>
       <text x="26" y="76" fill="#93a5bc" font-size="17">aqua aero + electric cyan</text>
@@ -62,7 +62,7 @@
       <circle cx="310" cy="43" r="13" fill="#00d2ff"/>
     </g>
 
-    <g transform="translate(472 396)">
+    <g transform="translate(472 378)">
       <rect width="336" height="128" rx="18" fill="#0a111a" stroke="#3f5168" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#d1dfeb" font-size="24" font-weight="750">Windows 7</text>
       <text x="26" y="76" fill="#8fa8bc" font-size="17">blue glass + warm gold</text>
@@ -71,7 +71,7 @@
       <circle cx="310" cy="43" r="13" fill="#59b2ff"/>
     </g>
 
-    <g transform="translate(854 396)">
+    <g transform="translate(854 378)">
       <rect width="336" height="128" rx="18" fill="#fffaf3" stroke="#e8dae8" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#3f344a" font-size="24" font-weight="750">Angelical Light</text>
       <text x="26" y="76" fill="#5f536d" font-size="17">ivory + rose + soft blue</text>
@@ -79,7 +79,34 @@
       <circle cx="276" cy="43" r="13" fill="#b13d6e"/>
       <circle cx="310" cy="43" r="13" fill="#7d5fb2"/>
     </g>
+
+    <g transform="translate(90 526)">
+      <rect width="336" height="128" rx="18" fill="#0f090b" stroke="#3a1920" stroke-width="1.4" opacity=".97"/>
+      <text x="26" y="42" fill="#eae3e7" font-size="24" font-weight="750">Gothic Angel</text>
+      <text x="26" y="76" fill="#a28e96" font-size="17">black cherry + pale rose</text>
+      <circle cx="242" cy="43" r="13" fill="#ff3b70"/>
+      <circle cx="276" cy="43" r="13" fill="#ff5c86"/>
+      <circle cx="310" cy="43" r="13" fill="#ff3b70"/>
+    </g>
+
+    <g transform="translate(472 526)">
+      <rect width="336" height="128" rx="18" fill="#0d0b1a" stroke="#2f2950" stroke-width="1.4" opacity=".97"/>
+      <text x="26" y="42" fill="#e0ddf5" font-size="24" font-weight="750">Luminous Space</text>
+      <text x="26" y="76" fill="#a29fc2" font-size="17">violet void + neon mint</text>
+      <circle cx="242" cy="43" r="13" fill="#00ffd2"/>
+      <circle cx="276" cy="43" r="13" fill="#3cffdc"/>
+      <circle cx="310" cy="43" r="13" fill="#cf9dff"/>
+    </g>
+
+    <g transform="translate(854 526)">
+      <rect width="336" height="128" rx="18" fill="#080808" stroke="#202020" stroke-width="1.4" opacity=".97"/>
+      <text x="26" y="42" fill="#eaeaea" font-size="24" font-weight="750">Fallen Angel</text>
+      <text x="26" y="76" fill="#a3a3a3" font-size="17">black ash + white glow</text>
+      <circle cx="242" cy="43" r="13" fill="#ffffff"/>
+      <circle cx="276" cy="43" r="13" fill="#ffffff"/>
+      <circle cx="310" cy="43" r="13" fill="#ffffff"/>
+    </g>
   </g>
 
-  <text x="90" y="586" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Six themes. One soft visual system. No runtime code.</text>
+  <text x="90" y="724" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Nine themes. One soft visual system. No runtime code.</text>
 </svg>

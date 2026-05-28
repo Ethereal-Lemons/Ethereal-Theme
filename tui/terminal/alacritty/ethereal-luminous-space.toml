@@ -1,0 +1,32 @@
+# Ethereal-Theme (Luminous Space)
+[colors.primary]
+background = "#0d0b1a"
+foreground = "#e0ddf5"
+
+[colors.cursor]
+text = "#0d0b1a"
+cursor = "#00ffd2"
+
+[colors.selection]
+text = "#e0ddf5"
+background = "#0b363a"
+
+[colors.normal]
+black = "#0d0b1a"
+red = "#ff9de0"
+green = "#ffffff"
+yellow = "#bfdbfe"
+blue = "#00ffd2"
+magenta = "#00ffd2"
+cyan = "#00ffd2"
+white = "#e0ddf5"
+
+[colors.bright]
+black = "#6c698f"
+red = "#ff9de0"
+green = "#ffffff"
+yellow = "#ff9de0"
+blue = "#3cffdc"
+magenta = "#cf9dff"
+cyan = "#00ffd2"
+white = "#ffffff"

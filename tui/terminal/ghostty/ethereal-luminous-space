@@ -1,0 +1,21 @@
+# Ethereal-Theme (Luminous Space)
+background = #0d0b1a
+foreground = #e0ddf5
+cursor-color = #00ffd2
+selection-background = #0b363a
+palette = 0=#0d0b1a
+palette = 1=#ff9de0
+palette = 2=#ffffff
+palette = 3=#bfdbfe
+palette = 4=#00ffd2
+palette = 5=#00ffd2
+palette = 6=#00ffd2
+palette = 7=#e0ddf5
+palette = 8=#6c698f
+palette = 9=#ff9de0
+palette = 10=#ffffff
+palette = 11=#ff9de0
+palette = 12=#3cffdc
+palette = 13=#cf9dff
+palette = 14=#00ffd2
+palette = 15=#ffffff

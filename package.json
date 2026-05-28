@@ -2,7 +2,7 @@
   "name": "ethereal-theme",
   "displayName": "Ethereal Lemons",
   "description": "A soft collection of celestial, retro, aero, and luminous VS Code color themes.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ethereal-lemons",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -28,6 +28,9 @@
     "frutiger aero",
     "y2k",
     "windows 7",
+    "gothic",
+    "luminous space",
+    "fallen angel",
     "aesthetic"
   ],
   "scripts": {
@@ -74,6 +77,21 @@
         "label": "Ethereal-Theme (Angelical Light)",
         "uiTheme": "vs",
         "path": "./themes/Ethereal-Angelical-Light-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Gothic Angel)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-GothicAngel-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Luminous Space)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-LuminousSpace-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Fallen Angel)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-FallenAngel-color-theme.json"
       }
     ]
   }
