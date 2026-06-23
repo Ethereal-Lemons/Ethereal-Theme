@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/ethereal-preview-aqua.png" alt="Ethereal theme preview">
+  <img src="assets/ethereal-preview-aqua.png?v=0.0.4" alt="Ethereal theme preview">
 </p>
 
 ## Atmosphere
