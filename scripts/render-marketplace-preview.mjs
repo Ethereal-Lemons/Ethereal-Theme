@@ -15,7 +15,12 @@ const order = [
 	"Ethereal-Theme (Angelical Light)",
 	"Ethereal-Theme (Gothic Angel)",
 	"Ethereal-Theme (Luminous Space)",
-	"Ethereal-Theme (Fallen Angel)"
+	"Ethereal-Theme (Fallen Angel)",
+	"Ethereal-Theme (Cathedral)",
+	"Ethereal-Theme (Dreamscape)",
+	"Ethereal-Theme (Aurora)",
+	"Ethereal-Theme (Moonlit)",
+	"Ethereal-Theme (Seraphim)"
 ];
 
 const moods = new Map([
@@ -27,7 +32,12 @@ const moods = new Map([
 	["Ethereal-Theme (Angelical Light)", "ivory + rose + soft blue"],
 	["Ethereal-Theme (Gothic Angel)", "black cherry + pale rose"],
 	["Ethereal-Theme (Luminous Space)", "violet void + neon mint"],
-	["Ethereal-Theme (Fallen Angel)", "black ash + white glow"]
+	["Ethereal-Theme (Fallen Angel)", "black ash + white glow"],
+	["Ethereal-Theme (Cathedral)", "stained glass + sapphire + ruby"],
+	["Ethereal-Theme (Dreamscape)", "twilight purple + neon pink"],
+	["Ethereal-Theme (Aurora)", "arctic void + aurora green"],
+	["Ethereal-Theme (Moonlit)", "midnight slate + lunar blue"],
+	["Ethereal-Theme (Seraphim)", "obsidian amber + solar gold"]
 ]);
 
 function esc(value) {
@@ -100,21 +110,21 @@ const angelical = themes.find((theme) => theme.name === "Ethereal-Theme (Angelic
 const y2k = themes.find((theme) => theme.name === "Ethereal-Theme (Y2K Aero)") ?? defaultTheme;
 const iconData = (await readFile(path.join(assetsDir, "ethereal-icon.png"))).toString("base64");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="title desc">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" viewBox="0 0 1280 1040" role="img" aria-labelledby="title desc">
   <title id="title">Ethereal theme preview</title>
   <desc id="desc">A marketplace preview generated from the current Ethereal theme colors.</desc>
   <defs>
-    <linearGradient id="page" x1="0" y1="0" x2="1280" y2="780" gradientUnits="userSpaceOnUse">
+    <linearGradient id="page" x1="0" y1="0" x2="1280" y2="1040" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="${solid(defaultTheme.colors["editor.background"])}"/>
       <stop offset=".38" stop-color="${solid(kerubin.colors["editor.background"])}"/>
       <stop offset=".7" stop-color="${solid(y2k.colors["editor.background"])}"/>
-      <stop offset="1" stop-color="${solid(angelical.colors["editor.background"])}"/>
+      <stop offset="1" stop-color="${solid(defaultTheme.colors["editor.background"])}"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".34"/>
     </filter>
   </defs>
-  <rect width="1280" height="780" fill="url(#page)"/>
+  <rect width="1280" height="1040" fill="url(#page)"/>
   <circle cx="1000" cy="116" r="226" fill="${solid(kerubin.colors["editorCursor.foreground"], kerubin.colors["editor.background"])}" opacity=".14"/>
   <circle cx="1120" cy="430" r="260" fill="${solid(y2k.colors["editorCursor.foreground"], y2k.colors["editor.background"])}" opacity=".14"/>
   <circle cx="238" cy="536" r="220" fill="${solid(themes.find((theme) => theme.name.includes("Frutiger"))?.colors["editorCursor.foreground"] ?? "#00ffaa")}" opacity=".08"/>
@@ -130,19 +140,22 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" v
     ${themes.map(card).join("\n")}
   </g>
 
-  <text x="90" y="724" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Nine themes. One soft visual system. No runtime code.</text>
+  <text x="90" y="990" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Fourteen themes. One soft visual system. No runtime code.</text>
 </svg>
 `;
 
 await mkdir(assetsDir, { recursive: true });
 await writeFile(path.join(assetsDir, "ethereal-preview.svg"), svg);
-execFileSync("magick", [
-	path.join(assetsDir, "ethereal-preview.svg"),
-	"-resize",
-	"1280x780",
-	"-depth",
-	"8",
-	path.join(assetsDir, "ethereal-preview-aqua.png")
-], { stdio: "inherit" });
-
-console.log("Rendered assets/ethereal-preview-aqua.png from current theme colors.");
+try {
+	execFileSync("magick", [
+		path.join(assetsDir, "ethereal-preview.svg"),
+		"-resize",
+		"1280x1040",
+		"-depth",
+		"8",
+		path.join(assetsDir, "ethereal-preview-aqua.png")
+	], { stdio: "inherit" });
+	console.log("Rendered assets/ethereal-preview-aqua.png from current theme colors.");
+} catch (err) {
+	console.warn("Warning: ImageMagick ('magick') command was not found or failed. Skipping PNG preview generation. SVG preview has been written successfully.");
+}

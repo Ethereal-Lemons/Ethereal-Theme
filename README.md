@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>Nine themes.</strong> One atmospheric visual system. No runtime code.
+  <strong>Fourteen themes.</strong> One atmospheric visual system. No runtime code.
 </p>
 
 <p align="center">
@@ -37,6 +37,11 @@ Ethereal is shaped around a cold celestial mood: bright syntax, dark glass, soft
 | **Ethereal-Theme (Gothic Angel)** | Crimson gothic shadows with smoky rose highlights and pale chapel-glass text. | `#0f090b` `#ff3b70` `#ff5c86` |
 | **Ethereal-Theme (Luminous Space)** | Deep violet space with mint starlight and soft cosmic contrast. | `#0d0b1a` `#00ffd2` `#cf9dff` |
 | **Ethereal-Theme (Fallen Angel)** | Ash-black monochrome with white highlights and red warning accents. | `#080808` `#ffffff` `#ff6b6b` |
+| **Ethereal-Theme (Cathedral)** | Solemn, rich light filtering through gothic cathedral windows. | `#0d0d12` `#3b82f6` `#10b981` |
+| **Ethereal-Theme (Dreamscape)** | Dreamy 90s vaporwave nostalgia and soft pastel glass gradients. | `#141026` `#ffabcc` `#a8ffcc` |
+| **Ethereal-Theme (Aurora)** | Shifting ribbons of magnetic light dancing across the polar night sky. | `#060c0e` `#00ffcc` `#d1a3ff` |
+| **Ethereal-Theme (Moonlit)** | Cool, quiet starlight reflecting on frosted glass. | `#0a0d14` `#a5d6ff` `#ccd6e0` |
+| **Ethereal-Theme (Seraphim)** | A warm, radiant solar counterpart to the cool tones of default. | `#0e0c0a` `#ffd700` `#ffab91` |
 
 ## Installation
 
@@ -64,6 +69,11 @@ Ethereal-Theme (Angelical Light)
 Ethereal-Theme (Gothic Angel)
 Ethereal-Theme (Luminous Space)
 Ethereal-Theme (Fallen Angel)
+Ethereal-Theme (Cathedral)
+Ethereal-Theme (Dreamscape)
+Ethereal-Theme (Aurora)
+Ethereal-Theme (Moonlit)
+Ethereal-Theme (Seraphim)
 ```
 
 ## Recommended Pairings

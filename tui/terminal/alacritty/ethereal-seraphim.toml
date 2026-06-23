@@ -1,0 +1,32 @@
+# Ethereal-Theme (Seraphim)
+[colors.primary]
+background = "#0e0c0a"
+foreground = "#f4eae0"
+
+[colors.cursor]
+text = "#0e0c0a"
+cursor = "#ffd700"
+
+[colors.selection]
+text = "#f4eae0"
+background = "#393008"
+
+[colors.normal]
+black = "#0e0c0a"
+red = "#ff7675"
+green = "#ffe599"
+yellow = "#e38e65"
+blue = "#ffd700"
+magenta = "#ffd700"
+cyan = "#ffd700"
+white = "#f4eae0"
+
+[colors.bright]
+black = "#8a7b75"
+red = "#ff7675"
+green = "#ffe599"
+yellow = "#ff7675"
+blue = "#ffe57f"
+magenta = "#ffab91"
+cyan = "#ffd700"
+white = "#ffffff"

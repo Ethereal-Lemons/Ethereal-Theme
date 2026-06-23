@@ -1,0 +1,32 @@
+# Ethereal-Theme (Aurora)
+[colors.primary]
+background = "#060c0e"
+foreground = "#e2ecef"
+
+[colors.cursor]
+text = "#060c0e"
+cursor = "#00ffcc"
+
+[colors.selection]
+text = "#e2ecef"
+background = "#053730"
+
+[colors.normal]
+black = "#060c0e"
+red = "#ff7096"
+green = "#8effd8"
+yellow = "#82aaff"
+blue = "#00ffcc"
+magenta = "#00ffcc"
+cyan = "#00ffcc"
+white = "#e2ecef"
+
+[colors.bright]
+black = "#5b757c"
+red = "#ff7096"
+green = "#8effd8"
+yellow = "#ff7096"
+blue = "#5cffe2"
+magenta = "#d1a3ff"
+cyan = "#00ffcc"
+white = "#ffffff"

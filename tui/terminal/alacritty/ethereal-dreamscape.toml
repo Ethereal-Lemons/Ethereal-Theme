@@ -1,0 +1,32 @@
+# Ethereal-Theme (Dreamscape)
+[colors.primary]
+background = "#141026"
+foreground = "#f4effc"
+
+[colors.cursor]
+text = "#141026"
+cursor = "#ffabcc"
+
+[colors.selection]
+text = "#f4effc"
+background = "#3d2b43"
+
+[colors.normal]
+black = "#141026"
+red = "#ff7096"
+green = "#baffec"
+yellow = "#89ddff"
+blue = "#ffabcc"
+magenta = "#ffabcc"
+cyan = "#ffabcc"
+white = "#f4effc"
+
+[colors.bright]
+black = "#7d729c"
+red = "#ff7096"
+green = "#baffec"
+yellow = "#ff7096"
+blue = "#ffccd9"
+magenta = "#ffcbba"
+cyan = "#ffabcc"
+white = "#ffffff"

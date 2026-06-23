@@ -2,7 +2,7 @@
   "name": "ethereal-theme",
   "displayName": "Ethereal Lemons",
   "description": "A soft collection of celestial, retro, aero, and luminous VS Code color themes.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "ethereal-lemons",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -92,6 +92,31 @@
         "label": "Ethereal-Theme (Fallen Angel)",
         "uiTheme": "vs-dark",
         "path": "./themes/Ethereal-FallenAngel-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Cathedral)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Cathedral-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Dreamscape)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Dreamscape-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Aurora)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Aurora-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Moonlit)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Moonlit-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Seraphim)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-Seraphim-color-theme.json"
       }
     ]
   }

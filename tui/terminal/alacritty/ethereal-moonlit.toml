@@ -1,0 +1,32 @@
+# Ethereal-Theme (Moonlit)
+[colors.primary]
+background = "#0a0d14"
+foreground = "#e6ebf5"
+
+[colors.cursor]
+text = "#0a0d14"
+cursor = "#a5d6ff"
+
+[colors.selection]
+text = "#e6ebf5"
+background = "#25303d"
+
+[colors.normal]
+black = "#0a0d14"
+red = "#ff7096"
+green = "#a5f3ff"
+yellow = "#89ddff"
+blue = "#a5d6ff"
+magenta = "#a5d6ff"
+cyan = "#a5d6ff"
+white = "#e6ebf5"
+
+[colors.bright]
+black = "#6a768c"
+red = "#ff7096"
+green = "#a5f3ff"
+yellow = "#ff7096"
+blue = "#cbe5ff"
+magenta = "#d2ccff"
+cyan = "#a5d6ff"
+white = "#ffffff"

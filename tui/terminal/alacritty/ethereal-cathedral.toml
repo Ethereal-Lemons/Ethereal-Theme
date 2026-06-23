@@ -1,0 +1,32 @@
+# Ethereal-Theme (Cathedral)
+[colors.primary]
+background = "#0d0d12"
+foreground = "#eaeaf2"
+
+[colors.cursor]
+text = "#0d0d12"
+cursor = "#3b82f6"
+
+[colors.selection]
+text = "#eaeaf2"
+background = "#15223a"
+
+[colors.normal]
+black = "#0d0d12"
+red = "#ef4444"
+green = "#10b981"
+yellow = "#8b5cf6"
+blue = "#3b82f6"
+magenta = "#3b82f6"
+cyan = "#3b82f6"
+white = "#eaeaf2"
+
+[colors.bright]
+black = "#606073"
+red = "#ef4444"
+green = "#10b981"
+yellow = "#ef4444"
+blue = "#60a5fa"
+magenta = "#ef4444"
+cyan = "#3b82f6"
+white = "#ffffff"
