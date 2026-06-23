@@ -155,7 +155,15 @@ try {
 		"8",
 		path.join(assetsDir, "ethereal-preview-aqua.png")
 	], { stdio: "inherit" });
-	console.log("Rendered assets/ethereal-preview-aqua.png from current theme colors.");
+	console.log("Rendered assets/ethereal-preview-aqua.png using ImageMagick.");
 } catch (err) {
-	console.warn("Warning: ImageMagick ('magick') command was not found or failed. Skipping PNG preview generation. SVG preview has been written successfully.");
+	try {
+		const { default: sharp } = await import("sharp");
+		await sharp(path.join(assetsDir, "ethereal-preview.svg"))
+			.png()
+			.toFile(path.join(assetsDir, "ethereal-preview-aqua.png"));
+		console.log("Rendered assets/ethereal-preview-aqua.png using sharp.");
+	} catch (sharpErr) {
+		console.warn("Warning: Neither ImageMagick ('magick') nor 'sharp' were available. Skipping PNG preview generation.");
+	}
 }
