@@ -12,14 +12,14 @@ text = "#3f344a"
 background = "#f6e2e3"
 
 [colors.normal]
-black = "#f4eadf"
+black = "#3f344a"
 red = "#c93662"
 green = "#267c52"
 yellow = "#8a6a18"
 blue = "#2f77b4"
 magenta = "#9f4a70"
 cyan = "#23748f"
-white = "#3f344a"
+white = "#746684"
 
 [colors.bright]
 black = "#746684"
@@ -29,4 +29,4 @@ yellow = "#9b5b13"
 blue = "#b13d6e"
 magenta = "#7d5fb2"
 cyan = "#23748f"
-white = "#ffffff"
+white = "#3f344a"

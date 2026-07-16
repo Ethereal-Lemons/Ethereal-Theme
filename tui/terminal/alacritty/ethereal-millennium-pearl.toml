@@ -1,0 +1,32 @@
+# Ethereal-Theme (Millennium Pearl)
+[colors.primary]
+background = "#f8f7ff"
+foreground = "#262238"
+
+[colors.cursor]
+text = "#f8f7ff"
+cursor = "#355fbd"
+
+[colors.selection]
+text = "#262238"
+background = "#d2d9f2"
+
+[colors.normal]
+black = "#262238"
+red = "#c42f55"
+green = "#137050"
+yellow = "#176b91"
+blue = "#355fbd"
+magenta = "#355fbd"
+cyan = "#a62b79"
+white = "#655f78"
+
+[colors.bright]
+black = "#655f78"
+red = "#c42f55"
+green = "#137050"
+yellow = "#9a5700"
+blue = "#a62b79"
+magenta = "#7b3fc7"
+cyan = "#a62b79"
+white = "#262238"

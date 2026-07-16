@@ -2,6 +2,22 @@
 
 All notable changes to Ethereal will be documented in this file.
 
+## 0.0.5
+
+- Added three fully coordinated Y2K-inspired themes:
+  - Ethereal-Theme (Chrome Angel)
+  - Ethereal-Theme (Cyber Cherub)
+  - Ethereal-Theme (Millennium Pearl)
+- Added complete integrated-terminal ANSI palettes, semantic syntax colors, and current Chat and Agent UI colors to the new themes.
+- Added matching opencode, Claude Code, Alacritty, Ghostty, Kitty, and WezTerm palettes.
+- Improved light-palette detection and ANSI readability in the companion-theme exporter.
+- Reworked the Marketplace README and preview around installation, theme discovery, and the user experience.
+
+## 0.0.4
+
+- Added Cathedral, Dreamscape, Aurora, Moonlit, and Seraphim.
+- Expanded the Marketplace preview and generated companion palettes to fourteen themes.
+
 ## 0.0.3
 
 - Added Ethereal-Theme (Gothic Angel).

@@ -1,0 +1,21 @@
+# Ethereal-Theme (Chrome Angel)
+background = #080b14
+foreground = #eaf4ff
+cursor-color = #7de3ff
+selection-background = #203744
+palette = 0=#080b14
+palette = 1=#ff6b91
+palette = 2=#69e6ad
+palette = 3=#8eb8ff
+palette = 4=#7de3ff
+palette = 5=#7de3ff
+palette = 6=#b79cff
+palette = 7=#eaf4ff
+palette = 8=#8392aa
+palette = 9=#ff6b91
+palette = 10=#69e6ad
+palette = 11=#ffd36f
+palette = 12=#b79cff
+palette = 13=#ff85d8
+palette = 14=#b79cff
+palette = 15=#ffffff

@@ -1,0 +1,21 @@
+# Ethereal-Theme (Cyber Cherub)
+background = #170b1b
+foreground = #ffeef9
+cursor-color = #ff65d8
+selection-background = #461d42
+palette = 0=#170b1b
+palette = 1=#ff5c7a
+palette = 2=#9eff6a
+palette = 3=#75eaff
+palette = 4=#ff65d8
+palette = 5=#ff65d8
+palette = 6=#6ee7ff
+palette = 7=#ffeef9
+palette = 8=#b584ad
+palette = 9=#ff5c7a
+palette = 10=#9eff6a
+palette = 11=#ffd166
+palette = 12=#6ee7ff
+palette = 13=#c99cff
+palette = 14=#6ee7ff
+palette = 15=#ffffff
