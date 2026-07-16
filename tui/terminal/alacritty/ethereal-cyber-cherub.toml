@@ -1,0 +1,32 @@
+# Ethereal-Theme (Cyber Cherub)
+[colors.primary]
+background = "#170b1b"
+foreground = "#ffeef9"
+
+[colors.cursor]
+text = "#170b1b"
+cursor = "#ff65d8"
+
+[colors.selection]
+text = "#ffeef9"
+background = "#461d42"
+
+[colors.normal]
+black = "#170b1b"
+red = "#ff5c7a"
+green = "#9eff6a"
+yellow = "#75eaff"
+blue = "#ff65d8"
+magenta = "#ff65d8"
+cyan = "#6ee7ff"
+white = "#ffeef9"
+
+[colors.bright]
+black = "#b584ad"
+red = "#ff5c7a"
+green = "#9eff6a"
+yellow = "#ffd166"
+blue = "#6ee7ff"
+magenta = "#c99cff"
+cyan = "#6ee7ff"
+white = "#ffffff"

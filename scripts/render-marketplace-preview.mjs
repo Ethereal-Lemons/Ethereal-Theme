@@ -5,12 +5,18 @@ import { execFileSync } from "node:child_process";
 const root = process.cwd();
 const themesDir = path.join(root, "themes");
 const assetsDir = path.join(root, "assets");
+const previewPng = path.join(assetsDir, "ethereal-preview-17.png");
+const previewWidth = 1280;
+const previewHeight = 1200;
 
 const order = [
 	"Ethereal-Theme (Default)",
 	"Ethereal-Theme (Kerubin)",
 	"Ethereal-Theme (Frutiger)",
 	"Ethereal-Theme (Y2K Aero)",
+	"Ethereal-Theme (Chrome Angel)",
+	"Ethereal-Theme (Cyber Cherub)",
+	"Ethereal-Theme (Millennium Pearl)",
 	"Ethereal-Theme (Windows 7)",
 	"Ethereal-Theme (Angelical Light)",
 	"Ethereal-Theme (Gothic Angel)",
@@ -28,6 +34,9 @@ const moods = new Map([
 	["Ethereal-Theme (Kerubin)", "pink + lavender + gold"],
 	["Ethereal-Theme (Frutiger)", "fresh green + aqua glass"],
 	["Ethereal-Theme (Y2K Aero)", "aqua aero + electric cyan"],
+	["Ethereal-Theme (Chrome Angel)", "silver chrome + cyan + violet"],
+	["Ethereal-Theme (Cyber Cherub)", "bubblegum + laser blue + lime"],
+	["Ethereal-Theme (Millennium Pearl)", "pearl white + cobalt + pink"],
 	["Ethereal-Theme (Windows 7)", "blue glass + warm gold"],
 	["Ethereal-Theme (Angelical Light)", "ivory + rose + soft blue"],
 	["Ethereal-Theme (Gothic Angel)", "black cherry + pale rose"],
@@ -102,7 +111,11 @@ for (const file of files.filter((file) => file.endsWith(".json"))) {
 	const theme = JSON.parse(await readFile(path.join(themesDir, file), "utf8"));
 	themes.push(theme);
 }
-themes.sort((a, b) => order.indexOf(a.name) - order.indexOf(b.name));
+themes.sort((a, b) => {
+	const aIndex = order.indexOf(a.name);
+	const bIndex = order.indexOf(b.name);
+	return (aIndex === -1 ? Number.MAX_SAFE_INTEGER : aIndex) - (bIndex === -1 ? Number.MAX_SAFE_INTEGER : bIndex);
+});
 
 const defaultTheme = themes.find((theme) => theme.name === "Ethereal-Theme (Default)") ?? themes[0];
 const kerubin = themes.find((theme) => theme.name === "Ethereal-Theme (Kerubin)") ?? defaultTheme;
@@ -110,11 +123,11 @@ const angelical = themes.find((theme) => theme.name === "Ethereal-Theme (Angelic
 const y2k = themes.find((theme) => theme.name === "Ethereal-Theme (Y2K Aero)") ?? defaultTheme;
 const iconData = (await readFile(path.join(assetsDir, "ethereal-icon.png"))).toString("base64");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" viewBox="0 0 1280 1040" role="img" aria-labelledby="title desc">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${previewWidth}" height="${previewHeight}" viewBox="0 0 ${previewWidth} ${previewHeight}" role="img" aria-labelledby="title desc">
   <title id="title">Ethereal theme preview</title>
   <desc id="desc">A marketplace preview generated from the current Ethereal theme colors.</desc>
   <defs>
-    <linearGradient id="page" x1="0" y1="0" x2="1280" y2="1040" gradientUnits="userSpaceOnUse">
+    <linearGradient id="page" x1="0" y1="0" x2="${previewWidth}" y2="${previewHeight}" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="${solid(defaultTheme.colors["editor.background"])}"/>
       <stop offset=".38" stop-color="${solid(kerubin.colors["editor.background"])}"/>
       <stop offset=".7" stop-color="${solid(y2k.colors["editor.background"])}"/>
@@ -124,7 +137,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" 
       <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".34"/>
     </filter>
   </defs>
-  <rect width="1280" height="1040" fill="url(#page)"/>
+  <rect width="${previewWidth}" height="${previewHeight}" fill="url(#page)"/>
   <circle cx="1000" cy="116" r="226" fill="${solid(kerubin.colors["editorCursor.foreground"], kerubin.colors["editor.background"])}" opacity=".14"/>
   <circle cx="1120" cy="430" r="260" fill="${solid(y2k.colors["editorCursor.foreground"], y2k.colors["editor.background"])}" opacity=".14"/>
   <circle cx="238" cy="536" r="220" fill="${solid(themes.find((theme) => theme.name.includes("Frutiger"))?.colors["editorCursor.foreground"] ?? "#00ffaa")}" opacity=".08"/>
@@ -134,13 +147,13 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" 
   </g>
 
   <text x="230" y="100" fill="#f8fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Ethereal</text>
-  <text x="232" y="146" fill="#cdd7e5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">Celestial, retro, aero, and luminous themes for Visual Studio Code.</text>
+  <text x="232" y="146" fill="#cdd7e5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">Celestial, glossy, and Y2K-inspired themes for your whole coding space.</text>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif" filter="url(#shadow)">
     ${themes.map(card).join("\n")}
   </g>
 
-  <text x="90" y="990" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Fourteen themes. One soft visual system. No runtime code.</text>
+  <text x="90" y="1160" fill="#eef4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">${themes.length} themes. One coordinated coding atmosphere.</text>
 </svg>
 `;
 
@@ -150,19 +163,19 @@ try {
 	execFileSync("magick", [
 		path.join(assetsDir, "ethereal-preview.svg"),
 		"-resize",
-		"1280x1040",
+		`${previewWidth}x${previewHeight}`,
 		"-depth",
 		"8",
-		path.join(assetsDir, "ethereal-preview-aqua.png")
+		previewPng
 	], { stdio: "inherit" });
-	console.log("Rendered assets/ethereal-preview-aqua.png using ImageMagick.");
+	console.log("Rendered assets/ethereal-preview-17.png using ImageMagick.");
 } catch (err) {
 	try {
 		const { default: sharp } = await import("sharp");
 		await sharp(path.join(assetsDir, "ethereal-preview.svg"))
 			.png()
-			.toFile(path.join(assetsDir, "ethereal-preview-aqua.png"));
-		console.log("Rendered assets/ethereal-preview-aqua.png using sharp.");
+			.toFile(previewPng);
+		console.log("Rendered assets/ethereal-preview-17.png using sharp.");
 	} catch (sharpErr) {
 		console.warn("Warning: Neither ImageMagick ('magick') nor 'sharp' were available. Skipping PNG preview generation.");
 	}

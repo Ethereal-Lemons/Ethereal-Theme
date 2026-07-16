@@ -1,8 +1,8 @@
 {
   "name": "ethereal-theme",
-  "displayName": "Ethereal Lemons",
-  "description": "A soft collection of celestial, retro, aero, and luminous VS Code color themes.",
-  "version": "0.0.4",
+  "displayName": "Ethereal Themes",
+  "description": "Seventeen celestial, glossy, and Y2K-inspired color themes for Visual Studio Code.",
+  "version": "0.0.5",
   "publisher": "ethereal-lemons",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -28,15 +28,19 @@
     "frutiger aero",
     "y2k",
     "windows 7",
+    "chrome",
+    "cyber",
+    "millennium",
     "gothic",
     "luminous space",
     "fallen angel",
     "aesthetic"
   ],
   "scripts": {
+    "generate:themes": "node scripts/generate_themes.mjs",
     "export:tui": "node scripts/export-tui-themes.mjs",
     "render:preview": "node scripts/render-marketplace-preview.mjs",
-    "vscode:prepublish": "npm run render:preview",
+    "vscode:prepublish": "npm run generate:themes && npm run render:preview",
     "package": "npx --yes @vscode/vsce package",
     "publish": "npx --yes @vscode/vsce publish"
   },
@@ -67,6 +71,21 @@
         "label": "Ethereal-Theme (Y2K Aero)",
         "uiTheme": "vs-dark",
         "path": "./themes/Ethereal-Y2K-Aero-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Chrome Angel)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-ChromeAngel-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Cyber Cherub)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereal-CyberCherub-color-theme.json"
+      },
+      {
+        "label": "Ethereal-Theme (Millennium Pearl)",
+        "uiTheme": "vs",
+        "path": "./themes/Ethereal-MillenniumPearl-color-theme.json"
       },
       {
         "label": "Ethereal-Theme (Windows 7)",

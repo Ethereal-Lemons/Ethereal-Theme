@@ -45,6 +45,15 @@ function rgbToHex({ r, g, b }) {
 	return `#${channel(r)}${channel(g)}${channel(b)}`;
 }
 
+function relativeLuminance(hex) {
+	const { r, g, b } = hexToRgb(hex);
+	const linear = (channel) => {
+		const value = channel / 255;
+		return value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
+	};
+	return 0.2126 * linear(r) + 0.7152 * linear(g) + 0.0722 * linear(b);
+}
+
 function solid(color, background = "#000000") {
 	if (!color) return undefined;
 	if (!/^#[0-9a-fA-F]{6}([0-9a-fA-F]{2})?$/.test(color)) return color;
@@ -85,7 +94,7 @@ function paletteFromTheme(theme) {
 	return {
 		name: theme.name,
 		slug: slugify(theme.name),
-		appearance: theme.colors["editor.background"]?.toLowerCase() === "#fffaf3" ? "light" : "dark",
+		appearance: relativeLuminance(background) > 0.5 ? "light" : "dark",
 		background,
 		panel,
 		element,
@@ -236,14 +245,14 @@ function claudeTheme(p) {
 
 function ansiPalette(p) {
 	return {
-		black: p.appearance === "light" ? "#f4eadf" : p.background,
+		black: p.appearance === "light" ? p.text : p.background,
 		red: p.tokens.error,
 		green: p.tokens.success,
 		yellow: p.tokens.warning,
 		blue: p.tokens.function,
 		magenta: p.primary,
 		cyan: p.tokens.accent,
-		white: p.text,
+		white: p.appearance === "light" ? p.muted : p.text,
 		brightBlack: p.muted,
 		brightRed: p.tokens.error,
 		brightGreen: p.tokens.success,
@@ -251,7 +260,7 @@ function ansiPalette(p) {
 		brightBlue: p.secondary,
 		brightMagenta: p.tokens.keyword,
 		brightCyan: p.tokens.accent,
-		brightWhite: p.appearance === "light" ? "#ffffff" : "#ffffff"
+		brightWhite: p.appearance === "light" ? p.text : "#ffffff"
 	};
 }
 

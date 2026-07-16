@@ -1,0 +1,32 @@
+# Ethereal-Theme (Chrome Angel)
+[colors.primary]
+background = "#080b14"
+foreground = "#eaf4ff"
+
+[colors.cursor]
+text = "#080b14"
+cursor = "#7de3ff"
+
+[colors.selection]
+text = "#eaf4ff"
+background = "#203744"
+
+[colors.normal]
+black = "#080b14"
+red = "#ff6b91"
+green = "#69e6ad"
+yellow = "#8eb8ff"
+blue = "#7de3ff"
+magenta = "#7de3ff"
+cyan = "#b79cff"
+white = "#eaf4ff"
+
+[colors.bright]
+black = "#8392aa"
+red = "#ff6b91"
+green = "#69e6ad"
+yellow = "#ffd36f"
+blue = "#b79cff"
+magenta = "#ff85d8"
+cyan = "#b79cff"
+white = "#ffffff"

@@ -1,0 +1,21 @@
+# Ethereal-Theme (Millennium Pearl)
+background = #f8f7ff
+foreground = #262238
+cursor-color = #355fbd
+selection-background = #d2d9f2
+palette = 0=#262238
+palette = 1=#c42f55
+palette = 2=#137050
+palette = 3=#176b91
+palette = 4=#355fbd
+palette = 5=#355fbd
+palette = 6=#a62b79
+palette = 7=#655f78
+palette = 8=#655f78
+palette = 9=#c42f55
+palette = 10=#137050
+palette = 11=#9a5700
+palette = 12=#a62b79
+palette = 13=#7b3fc7
+palette = 14=#a62b79
+palette = 15=#262238

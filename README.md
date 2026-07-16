@@ -5,90 +5,77 @@
 <h1 align="center">Ethereal</h1>
 
 <p align="center">
-  A soft collection of celestial, retro, aero, and luminous color themes for Visual Studio Code.
+  Celestial, glossy, and Y2K-inspired themes for your whole coding space.
 </p>
 
 <p align="center">
-  <strong>Fourteen themes.</strong> One atmospheric visual system. No runtime code.
+  <strong>Seventeen coordinated themes for VS Code, with matching palettes for terminals and coding agents.</strong>
 </p>
 
 <p align="center">
-  <img src="assets/ethereal-preview-aqua.png?v=0.0.4" alt="Ethereal theme preview">
+  <img src="assets/ethereal-preview-17.png" alt="Preview of the Ethereal theme collection">
 </p>
 
-## Atmosphere
+## Install
 
-Ethereal is shaped around a cold celestial mood: bright syntax, dark glass, soft bloom, and angelic monochrome texture. The collection now moves from glossy aqua nostalgia into gothic rose, luminous space, and fallen monochrome variants.
+1. Open **Extensions** in VS Code with `Ctrl+Shift+X`.
+2. Search for **Ethereal Themes** and select **Install**.
+3. Press `Ctrl+K Ctrl+T` to open the theme picker.
+4. Choose any `Ethereal-Theme` variant.
+
+On macOS, open Extensions with `Cmd+Shift+X` and the theme picker with `Cmd+K Cmd+T`.
+
+## Beyond syntax colors
+
+Every Ethereal variant coordinates the editor, syntax, and core workbench. The new **Chrome Angel**, **Cyber Cherub**, and **Millennium Pearl** themes extend that treatment across:
+
+- editor backgrounds, selections, line numbers, brackets, and syntax highlighting;
+- the activity bar, sidebars, tabs, panels, menus, inputs, and notifications;
+- Git states, diffs, debugging, testing, and notebooks;
+- the integrated terminal, including its full ANSI color palette; and
+- VS Code Chat, inline chat, agent sessions, and agent edit surfaces.
+
+## Themes
+
+| Theme | Appearance | Feel |
+| --- | --- | --- |
+| **Default** | Dark | Deep blue-black with soft sky highlights for an easy everyday setup. |
+| **Kerubin** | Dark | Cherubic pink, lavender, mint, and gold. |
+| **Frutiger** | Dark | Fresh green and aqua inspired by glossy Frutiger Aero interfaces. |
+| **Y2K Aero** | Dark | Translucent midnight glass with playful electric cyan. |
+| **Chrome Angel** · New | Dark | Polished silver-blue surfaces, icy cyan, and electric violet. |
+| **Cyber Cherub** · New | Dark | Bubblegum pink, laser blue, and acid-lime accents. |
+| **Millennium Pearl** · New | Light | Pearl-white chrome with cobalt, violet, and hot-pink details. |
+| **Windows 7** | Dark | Cool desktop glass with nostalgic blue and warm gold. |
+| **Angelical Light** | Light | Warm ivory with gentle rose, lavender, blue, and mint. |
+| **Gothic Angel** | Dark | Black-cherry shadows, crimson, and chapel-glass rose. |
+| **Luminous Space** | Dark | A deep violet void lit by mint starlight. |
+| **Fallen Angel** | Dark | Ash-black monochrome with white glow and sharp red warnings. |
+| **Cathedral** | Dark | Sapphire, ruby, and emerald light through gothic glass. |
+| **Dreamscape** | Dark | Dreamy 90s vaporwave pastels over twilight purple. |
+| **Aurora** | Dark | Magnetic green and violet ribbons across an arctic night. |
+| **Moonlit** | Dark | Quiet lunar blue on frosted midnight surfaces. |
+| **Seraphim** | Dark | Obsidian warmth with radiant solar gold. |
+
+## Terminals and coding agents
+
+Want the same atmosphere outside VS Code? The GitHub repository includes matching palettes for:
+
+- opencode and Claude Code;
+- Alacritty, Ghostty, Kitty, and WezTerm.
+
+These companion palettes are installed separately from the VS Code extension. Follow the [terminal and coding agent setup guide](https://github.com/Ethereal-Lemons/Ethereal-Theme/blob/main/tui/README.md) to bring your chosen Ethereal theme to the rest of your workspace.
+
+## Tips
+
+- Switch variants anytime with `Ctrl+K Ctrl+T` (`Cmd+K Cmd+T` on macOS).
+- The new Y2K trio recolors the integrated terminal automatically, including all ANSI colors.
+- Pair Ethereal with a simple icon theme to let the palette stay in focus.
+- Use **Millennium Pearl** or **Angelical Light** when you want a brighter workspace.
 
 <p align="center">
   <img src="assets/ethereal-angel-water.jpg" width="520" alt="Ethereal angel over luminous water">
 </p>
-
-## Themes
-
-| Theme | Mood | Palette |
-| --- | --- | --- |
-| **Ethereal-Theme (Default)** | Deep blue-black surfaces with pale sky highlights. Calm, minimal, and made for long coding sessions. | `#07080c` `#9cd2ff` `#e2f1ff` |
-| **Ethereal-Theme (Kerubin)** | A dusky cherubic palette with soft pink, lavender, mint, gold, and cyan syntax accents. | `#161420` `#ffb3d1` `#dec9ff` |
-| **Ethereal-Theme (Frutiger)** | Fresh green and aqua highlights inspired by glossy Frutiger Aero interfaces. | `#08131a` `#00ffaa` `#00d2ff` |
-| **Ethereal-Theme (Y2K Aero)** | Aqua glass over a translucent midnight base. Bright, playful, and glossy. | `#0b1720` `#00f0ff` `#00d2ff` |
-| **Ethereal-Theme (Windows 7)** | Cool blue glass accents with warm gold highlights, inspired by classic desktop nostalgia. | `#0a111a` `#59b2ff` `#ffd166` |
-| **Ethereal-Theme (Angelical Light)** | Warm ivory surfaces with readable rose, lavender, blue, mint, and gold syntax colors. | `#fffaf3` `#9f4a70` `#7d5fb2` |
-| **Ethereal-Theme (Gothic Angel)** | Crimson gothic shadows with smoky rose highlights and pale chapel-glass text. | `#0f090b` `#ff3b70` `#ff5c86` |
-| **Ethereal-Theme (Luminous Space)** | Deep violet space with mint starlight and soft cosmic contrast. | `#0d0b1a` `#00ffd2` `#cf9dff` |
-| **Ethereal-Theme (Fallen Angel)** | Ash-black monochrome with white highlights and red warning accents. | `#080808` `#ffffff` `#ff6b6b` |
-| **Ethereal-Theme (Cathedral)** | Solemn, rich light filtering through gothic cathedral windows. | `#0d0d12` `#3b82f6` `#10b981` |
-| **Ethereal-Theme (Dreamscape)** | Dreamy 90s vaporwave nostalgia and soft pastel glass gradients. | `#141026` `#ffabcc` `#a8ffcc` |
-| **Ethereal-Theme (Aurora)** | Shifting ribbons of magnetic light dancing across the polar night sky. | `#060c0e` `#00ffcc` `#d1a3ff` |
-| **Ethereal-Theme (Moonlit)** | Cool, quiet starlight reflecting on frosted glass. | `#0a0d14` `#a5d6ff` `#ccd6e0` |
-| **Ethereal-Theme (Seraphim)** | A warm, radiant solar counterpart to the cool tones of default. | `#0e0c0a` `#ffd700` `#ffab91` |
-
-## Installation
-
-1. Open **Extensions** in VS Code.
-2. Search for **Ethereal**.
-3. Install the extension.
-4. Open **Preferences: Color Theme**.
-5. Select any `Ethereal-Theme` variant.
-
-You can also open the theme picker directly:
-
-```text
-Preferences: Color Theme
-```
-
-## Included Themes
-
-```text
-Ethereal-Theme (Default)
-Ethereal-Theme (Kerubin)
-Ethereal-Theme (Frutiger)
-Ethereal-Theme (Y2K Aero)
-Ethereal-Theme (Windows 7)
-Ethereal-Theme (Angelical Light)
-Ethereal-Theme (Gothic Angel)
-Ethereal-Theme (Luminous Space)
-Ethereal-Theme (Fallen Angel)
-Ethereal-Theme (Cathedral)
-Ethereal-Theme (Dreamscape)
-Ethereal-Theme (Aurora)
-Ethereal-Theme (Moonlit)
-Ethereal-Theme (Seraphim)
-```
-
-## Recommended Pairings
-
-- Works well with soft icon themes and minimal UI chrome.
-- The dark variants pair best with dim terminal backgrounds.
-- Angelical Light is designed for bright environments while keeping syntax colors readable.
-
-<p align="center">
-  <img src="assets/ethereal-angel-mirror.jpg" width="520" alt="Ethereal angel beside a gothic mirror">
-</p>
-
-## Notes
-
-Ethereal contributes color themes only. It does not add commands, activate background code, or change editor behavior.
 
 ## License
 
