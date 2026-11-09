@@ -269,5 +269,5 @@ await mkdir(assetsDir, { recursive: true });
 await writeFile(showcaseSvg, svg);
 
 const { default: sharp } = await import("sharp");
-await sharp(Buffer.from(svg), { density: 144 }).png({ compressionLevel: 9, palette: false }).toFile(showcasePng);
+await sharp(Buffer.from(svg), { density: 144 }).png({ compressionLevel: 9, palette: true, quality: 92, effort: 10 }).toFile(showcasePng);
 console.log(`Rendered assets/ethereal-showcase.png (${themes.length} themes).`);
