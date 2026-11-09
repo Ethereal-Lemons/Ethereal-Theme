@@ -5,10 +5,10 @@
     "panel": "#0e0b1c",
     "element": "#1a1532",
     "text": "#f4effc",
-    "muted": "#7d729c",
+    "muted": "#b3a8cc",
     "primary": "#ffabcc",
-    "secondary": "#ffccd9",
-    "border": "#312551",
+    "secondary": "#c3a6ff",
+    "border": "#4c3b7c",
     "error": "#ff7096",
     "warning": "#89ddff",
     "success": "#baffec"
@@ -16,7 +16,7 @@
   "theme": {
     "primary": "primary",
     "secondary": "secondary",
-    "accent": "#ffabcc",
+    "accent": "#c3a6ff",
     "error": "error",
     "warning": "warning",
     "success": "success",
@@ -44,7 +44,7 @@
     "markdownText": "text",
     "markdownHeading": "primary",
     "markdownLink": "secondary",
-    "markdownLinkText": "#ffabcc",
+    "markdownLinkText": "#c3a6ff",
     "markdownCode": "#baffec",
     "markdownBlockQuote": "muted",
     "markdownEmph": "#89ddff",
@@ -53,16 +53,16 @@
     "markdownListItem": "primary",
     "markdownListEnumeration": "secondary",
     "markdownImage": "secondary",
-    "markdownImageText": "#ffabcc",
+    "markdownImageText": "#c3a6ff",
     "markdownCodeBlock": "text",
-    "syntaxComment": "#7d729c",
+    "syntaxComment": "#9488b3",
     "syntaxKeyword": "#ffcbba",
     "syntaxFunction": "#ffabcc",
     "syntaxVariable": "#f4effc",
     "syntaxString": "#baffec",
-    "syntaxNumber": "#ff7096",
+    "syntaxNumber": "#dec9ff",
     "syntaxType": "#89ddff",
-    "syntaxOperator": "#89ddff",
-    "syntaxPunctuation": "#89ddff"
+    "syntaxOperator": "#a8f0ff",
+    "syntaxPunctuation": "#a8f0ff"
   }
 }

@@ -1,32 +1,32 @@
 # Ethereal-Theme (Y2K Aero)
 [colors.primary]
 background = "#0b1720"
-foreground = "#c8d6e5"
+foreground = "#d3e1f0"
 
 [colors.cursor]
 text = "#0b1720"
 cursor = "#00f0ff"
 
 [colors.selection]
-text = "#c8d6e5"
-background = "#093d47"
+text = "#d3e1f0"
+background = "#09434d"
 
 [colors.normal]
 black = "#0b1720"
-red = "#ff7096"
-green = "#ffffff"
+red = "#ff6b8b"
+green = "#5df2b0"
 yellow = "#a5f3fc"
 blue = "#00f0ff"
 magenta = "#00f0ff"
-cyan = "#00f0ff"
-white = "#c8d6e5"
+cyan = "#8ec5ff"
+white = "#d3e1f0"
 
 [colors.bright]
-black = "#4f6277"
-red = "#ff7096"
-green = "#ffffff"
+black = "#8fa6bc"
+red = "#ff6b8b"
+green = "#5df2b0"
 yellow = "#ffd166"
-blue = "#00f0ff"
-magenta = "#00d2ff"
-cyan = "#00f0ff"
+blue = "#8ec5ff"
+magenta = "#5cc8ff"
+cyan = "#8ec5ff"
 white = "#ffffff"

@@ -9,24 +9,24 @@ cursor = "#ffd700"
 
 [colors.selection]
 text = "#f4eae0"
-background = "#393008"
+background = "#3f3508"
 
 [colors.normal]
 black = "#0e0c0a"
 red = "#ff7675"
-green = "#ffe599"
+green = "#b5e08a"
 yellow = "#e38e65"
 blue = "#ffd700"
 magenta = "#ffd700"
-cyan = "#ffd700"
+cyan = "#ffab91"
 white = "#f4eae0"
 
 [colors.bright]
-black = "#8a7b75"
+black = "#b5a296"
 red = "#ff7675"
-green = "#ffe599"
-yellow = "#ff7675"
-blue = "#ffe57f"
+green = "#b5e08a"
+yellow = "#ff9d7a"
+blue = "#ffab91"
 magenta = "#ffab91"
-cyan = "#ffd700"
+cyan = "#ffab91"
 white = "#ffffff"

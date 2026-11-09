@@ -27,39 +27,39 @@
   <g font-family="Inter, Segoe UI, Arial, sans-serif" filter="url(#shadow)">
     
     <g transform="translate(90 230)">
-      <rect width="336" height="128" rx="18" fill="#07080c" stroke="#1a1f29" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#07080c" stroke="#364259" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#eae6f5" font-size="24" font-weight="750">Default</text>
-      <text x="26" y="76" fill="#a3b0c2" font-size="17">blue-black + pale sky</text>
+      <text x="26" y="76" fill="#eae6f5" font-size="17">blue-black + pale sky</text>
       <circle cx="242" cy="43" r="13" fill="#9cd2ff"/>
-      <circle cx="276" cy="43" r="13" fill="#7ec2ff"/>
+      <circle cx="276" cy="43" r="13" fill="#ffb3d9"/>
       <circle cx="310" cy="43" r="13" fill="#dec9ff"/>
     </g>
 
     <g transform="translate(472 230)">
-      <rect width="336" height="128" rx="18" fill="#161420" stroke="#231e31" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#161420" stroke="#403858" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#eae6f5" font-size="24" font-weight="750">Kerubin</text>
-      <text x="26" y="76" fill="#cdc5e3" font-size="17">pink + lavender + gold</text>
+      <text x="26" y="76" fill="#eae6f5" font-size="17">pink + lavender + gold</text>
       <circle cx="242" cy="43" r="13" fill="#ffb3d1"/>
-      <circle cx="276" cy="43" r="13" fill="#ffa8cc"/>
+      <circle cx="276" cy="43" r="13" fill="#a2d2ff"/>
       <circle cx="310" cy="43" r="13" fill="#dec9ff"/>
     </g>
 
     <g transform="translate(854 230)">
-      <rect width="336" height="128" rx="18" fill="#08131a" stroke="#0d2c39" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#08131a" stroke="#1f4c5e" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#d0e6f0" font-size="24" font-weight="750">Frutiger</text>
-      <text x="26" y="76" fill="#93b0c0" font-size="17">fresh green + aqua glass</text>
+      <text x="26" y="76" fill="#d0e6f0" font-size="17">fresh green + aqua glass</text>
       <circle cx="242" cy="43" r="13" fill="#00ffaa"/>
       <circle cx="276" cy="43" r="13" fill="#00d2ff"/>
       <circle cx="310" cy="43" r="13" fill="#00d2ff"/>
     </g>
 
     <g transform="translate(90 378)">
-      <rect width="336" height="128" rx="18" fill="#0b1720" stroke="#3d536b" stroke-width="1.4" opacity=".97"/>
-      <text x="26" y="42" fill="#c8d6e5" font-size="24" font-weight="750">Y2K Aero</text>
-      <text x="26" y="76" fill="#93a5bc" font-size="17">aqua aero + electric cyan</text>
+      <rect width="336" height="128" rx="18" fill="#0b1720" stroke="#2c4b68" stroke-width="1.4" opacity=".97"/>
+      <text x="26" y="42" fill="#d3e1f0" font-size="24" font-weight="750">Y2K Aero</text>
+      <text x="26" y="76" fill="#d3e1f0" font-size="17">aqua aero + electric cyan</text>
       <circle cx="242" cy="43" r="13" fill="#00f0ff"/>
-      <circle cx="276" cy="43" r="13" fill="#00f0ff"/>
-      <circle cx="310" cy="43" r="13" fill="#00d2ff"/>
+      <circle cx="276" cy="43" r="13" fill="#8ec5ff"/>
+      <circle cx="310" cy="43" r="13" fill="#5cc8ff"/>
     </g>
 
     <g transform="translate(472 378)">
@@ -90,92 +90,92 @@
     </g>
 
     <g transform="translate(472 526)">
-      <rect width="336" height="128" rx="18" fill="#0a111a" stroke="#3f5168" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#0a111a" stroke="#30465f" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#d1dfeb" font-size="24" font-weight="750">Windows 7</text>
-      <text x="26" y="76" fill="#8fa8bc" font-size="17">blue glass + warm gold</text>
+      <text x="26" y="76" fill="#d1dfeb" font-size="17">blue glass + warm gold</text>
       <circle cx="242" cy="43" r="13" fill="#59b2ff"/>
       <circle cx="276" cy="43" r="13" fill="#ffd166"/>
-      <circle cx="310" cy="43" r="13" fill="#59b2ff"/>
+      <circle cx="310" cy="43" r="13" fill="#8cc8ff"/>
     </g>
 
     <g transform="translate(854 526)">
-      <rect width="336" height="128" rx="18" fill="#fffaf3" stroke="#e8dae8" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#fffaf3" stroke="#d6c3d8" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#3f344a" font-size="24" font-weight="750">Angelical Light</text>
-      <text x="26" y="76" fill="#5f536d" font-size="17">ivory + rose + soft blue</text>
+      <text x="26" y="76" fill="#3f344a" font-size="17">ivory + rose + soft blue</text>
       <circle cx="242" cy="43" r="13" fill="#9f4a70"/>
-      <circle cx="276" cy="43" r="13" fill="#b13d6e"/>
-      <circle cx="310" cy="43" r="13" fill="#7d5fb2"/>
+      <circle cx="276" cy="43" r="13" fill="#2f6fa8"/>
+      <circle cx="310" cy="43" r="13" fill="#7a5aae"/>
     </g>
 
     <g transform="translate(90 674)">
-      <rect width="336" height="128" rx="18" fill="#0f090b" stroke="#3a1920" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#0f090b" stroke="#56313c" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#eae3e7" font-size="24" font-weight="750">Gothic Angel</text>
-      <text x="26" y="76" fill="#a28e96" font-size="17">black cherry + pale rose</text>
-      <circle cx="242" cy="43" r="13" fill="#ff3b70"/>
-      <circle cx="276" cy="43" r="13" fill="#ff5c86"/>
-      <circle cx="310" cy="43" r="13" fill="#ff3b70"/>
+      <text x="26" y="76" fill="#eae3e7" font-size="17">black cherry + pale rose</text>
+      <circle cx="242" cy="43" r="13" fill="#ff4d7d"/>
+      <circle cx="276" cy="43" r="13" fill="#d5a6e6"/>
+      <circle cx="310" cy="43" r="13" fill="#ff8fb0"/>
     </g>
 
     <g transform="translate(472 674)">
-      <rect width="336" height="128" rx="18" fill="#0d0b1a" stroke="#2f2950" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#0d0b1a" stroke="#4a4180" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#e0ddf5" font-size="24" font-weight="750">Luminous Space</text>
-      <text x="26" y="76" fill="#a29fc2" font-size="17">violet void + neon mint</text>
+      <text x="26" y="76" fill="#e0ddf5" font-size="17">violet void + neon mint</text>
       <circle cx="242" cy="43" r="13" fill="#00ffd2"/>
-      <circle cx="276" cy="43" r="13" fill="#3cffdc"/>
+      <circle cx="276" cy="43" r="13" fill="#bfdbfe"/>
       <circle cx="310" cy="43" r="13" fill="#cf9dff"/>
     </g>
 
     <g transform="translate(854 674)">
-      <rect width="336" height="128" rx="18" fill="#080808" stroke="#202020" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#080808" stroke="#363636" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#eaeaea" font-size="24" font-weight="750">Fallen Angel</text>
-      <text x="26" y="76" fill="#a3a3a3" font-size="17">black ash + white glow</text>
+      <text x="26" y="76" fill="#eaeaea" font-size="17">black ash + white glow</text>
       <circle cx="242" cy="43" r="13" fill="#ffffff"/>
-      <circle cx="276" cy="43" r="13" fill="#ffffff"/>
+      <circle cx="276" cy="43" r="13" fill="#b0b0b0"/>
       <circle cx="310" cy="43" r="13" fill="#ffffff"/>
     </g>
 
     <g transform="translate(90 822)">
-      <rect width="336" height="128" rx="18" fill="#0d0d12" stroke="#22222d" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#0d0d12" stroke="#3a3a4f" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#eaeaf2" font-size="24" font-weight="750">Cathedral</text>
-      <text x="26" y="76" fill="#8c8c9e" font-size="17">stained glass + sapphire + ruby</text>
-      <circle cx="242" cy="43" r="13" fill="#3b82f6"/>
-      <circle cx="276" cy="43" r="13" fill="#60a5fa"/>
-      <circle cx="310" cy="43" r="13" fill="#ef4444"/>
+      <text x="26" y="76" fill="#eaeaf2" font-size="17">stained glass + sapphire + ruby</text>
+      <circle cx="242" cy="43" r="13" fill="#5b9bff"/>
+      <circle cx="276" cy="43" r="13" fill="#a98aff"/>
+      <circle cx="310" cy="43" r="13" fill="#f55b5b"/>
     </g>
 
     <g transform="translate(472 822)">
-      <rect width="336" height="128" rx="18" fill="#141026" stroke="#312551" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#141026" stroke="#4c3b7c" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#f4effc" font-size="24" font-weight="750">Dreamscape</text>
-      <text x="26" y="76" fill="#a89dbf" font-size="17">twilight purple + neon pink</text>
+      <text x="26" y="76" fill="#f4effc" font-size="17">twilight purple + neon pink</text>
       <circle cx="242" cy="43" r="13" fill="#ffabcc"/>
-      <circle cx="276" cy="43" r="13" fill="#ffccd9"/>
+      <circle cx="276" cy="43" r="13" fill="#c3a6ff"/>
       <circle cx="310" cy="43" r="13" fill="#ffcbba"/>
     </g>
 
     <g transform="translate(854 822)">
-      <rect width="336" height="128" rx="18" fill="#060c0e" stroke="#192b2f" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#060c0e" stroke="#2f4d54" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#e2ecef" font-size="24" font-weight="750">Aurora</text>
-      <text x="26" y="76" fill="#8da1a6" font-size="17">arctic void + aurora green</text>
+      <text x="26" y="76" fill="#e2ecef" font-size="17">arctic void + aurora green</text>
       <circle cx="242" cy="43" r="13" fill="#00ffcc"/>
-      <circle cx="276" cy="43" r="13" fill="#5cffe2"/>
+      <circle cx="276" cy="43" r="13" fill="#82aaff"/>
       <circle cx="310" cy="43" r="13" fill="#d1a3ff"/>
     </g>
 
     <g transform="translate(90 970)">
-      <rect width="336" height="128" rx="18" fill="#0a0d14" stroke="#1f2633" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#0a0d14" stroke="#36425a" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#e6ebf5" font-size="24" font-weight="750">Moonlit</text>
-      <text x="26" y="76" fill="#93a0b5" font-size="17">midnight slate + lunar blue</text>
+      <text x="26" y="76" fill="#e6ebf5" font-size="17">midnight slate + lunar blue</text>
       <circle cx="242" cy="43" r="13" fill="#a5d6ff"/>
-      <circle cx="276" cy="43" r="13" fill="#cbe5ff"/>
+      <circle cx="276" cy="43" r="13" fill="#b4c8ff"/>
       <circle cx="310" cy="43" r="13" fill="#d2ccff"/>
     </g>
 
     <g transform="translate(472 970)">
-      <rect width="336" height="128" rx="18" fill="#0e0c0a" stroke="#2b2421" stroke-width="1.4" opacity=".97"/>
+      <rect width="336" height="128" rx="18" fill="#0e0c0a" stroke="#4a3d36" stroke-width="1.4" opacity=".97"/>
       <text x="26" y="42" fill="#f4eae0" font-size="24" font-weight="750">Seraphim</text>
-      <text x="26" y="76" fill="#b5a296" font-size="17">obsidian amber + solar gold</text>
+      <text x="26" y="76" fill="#f4eae0" font-size="17">obsidian amber + solar gold</text>
       <circle cx="242" cy="43" r="13" fill="#ffd700"/>
-      <circle cx="276" cy="43" r="13" fill="#ffe57f"/>
+      <circle cx="276" cy="43" r="13" fill="#ffab91"/>
       <circle cx="310" cy="43" r="13" fill="#ffab91"/>
     </g>
   </g>

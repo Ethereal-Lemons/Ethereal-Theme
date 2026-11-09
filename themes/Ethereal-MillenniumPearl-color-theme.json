@@ -142,7 +142,7 @@
 		"tab.inactiveModifiedBorder": "#a62b7999",
 		"editor.background": "#f8f7ff",
 		"editor.foreground": "#262238",
-		"editorLineNumber.foreground": "#655f78a8",
+		"editorLineNumber.foreground": "#655f78e0",
 		"editorLineNumber.activeForeground": "#355fbd",
 		"editorCursor.foreground": "#355fbd",
 		"editorCursor.background": "#f8f7ff",

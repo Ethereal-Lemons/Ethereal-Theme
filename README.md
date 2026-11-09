@@ -27,7 +27,7 @@ On macOS, open Extensions with `Cmd+Shift+X` and the theme picker with `Cmd+K Cm
 
 ## Beyond syntax colors
 
-Every Ethereal variant coordinates the editor, syntax, and core workbench. The new **Chrome Angel**, **Cyber Cherub**, and **Millennium Pearl** themes extend that treatment across:
+Every Ethereal variant is fully coordinated across:
 
 - editor backgrounds, selections, line numbers, brackets, and syntax highlighting;
 - the activity bar, sidebars, tabs, panels, menus, inputs, and notifications;
@@ -69,7 +69,7 @@ These companion palettes are installed separately from the VS Code extension. Fo
 ## Tips
 
 - Switch variants anytime with `Ctrl+K Ctrl+T` (`Cmd+K Cmd+T` on macOS).
-- The new Y2K trio recolors the integrated terminal automatically, including all ANSI colors.
+- Every variant recolors the integrated terminal automatically, including all ANSI colors.
 - Pair Ethereal with a simple icon theme to let the palette stay in focus.
 - Use **Millennium Pearl** or **Angelical Light** when you want a brighter workspace.
 
