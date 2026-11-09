@@ -5,7 +5,7 @@ return {
   cursor_bg = "#ffd700",
   cursor_fg = "#0e0c0a",
   selection_fg = "#f4eae0",
-  selection_bg = "#393008",
-  ansi = { "#0e0c0a", "#ff7675", "#ffe599", "#e38e65", "#ffd700", "#ffd700", "#ffd700", "#f4eae0" },
-  brights = { "#8a7b75", "#ff7675", "#ffe599", "#ff7675", "#ffe57f", "#ffab91", "#ffd700", "#ffffff" },
+  selection_bg = "#3f3508",
+  ansi = { "#0e0c0a", "#ff7675", "#b5e08a", "#e38e65", "#ffd700", "#ffd700", "#ffab91", "#f4eae0" },
+  brights = { "#b5a296", "#ff7675", "#b5e08a", "#ff9d7a", "#ffab91", "#ffab91", "#ffab91", "#ffffff" },
 }

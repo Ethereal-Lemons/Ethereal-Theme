@@ -2,6 +2,13 @@
 
 All notable changes to Ethereal will be documented in this file.
 
+## Unreleased
+
+- Upgraded all fourteen earlier themes to the full workbench treatment: complete integrated-terminal ANSI palettes, semantic syntax colors, Git, diff, debug, test, notebook, Chat and Agent colors.
+- Moved every palette into `scripts/palettes.mjs` so all seventeen themes build from one generator.
+- Added a build-time contrast audit (WCAG AA for text) that fails the build on unreadable comments, tabs, status bars and terminal colors.
+- Raised comment, muted-text, inactive-tab and line-number contrast across the collection, and added distinct string and operator colors to themes that previously used white.
+
 ## 0.0.5
 
 - Added three fully coordinated Y2K-inspired themes:
