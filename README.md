@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/ethereal-preview-17.png" alt="Preview of the Ethereal theme collection">
+  <img src="assets/ethereal-showcase.png" alt="Ethereal theme collection: six themes shown as editors with syntax, terminal colors and status bars, plus a swatch for all seventeen themes">
 </p>
 
 ## Install
